@@ -29,3 +29,5 @@ Comandos:
 - `git commit -m "mensaje"` --> Comitea al repositorio local los cambios que hay pendientes en el staging área
 - `git log` --> Nos muestra el listado de comiteos del repositorio en el que estamos con su hash, autor, fecha, mensaje,  etc.
 - `git diff nombrefichero.ext` --> para ver los cambios que hay en un fichero de nuestro **Working Área** comparado con el **Local Repository** (commit)
+- `git remote add origin https://github.com/Tsuna-mi/notes-bootcamp.git`--> para sincronizar nuestro repo remoto con el local
+- `git push -u origin master` --> para subir nuestros cambios del repositorio local al remoto

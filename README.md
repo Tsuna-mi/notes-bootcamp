@@ -30,4 +30,4 @@ Comandos:
 - `git log` --> Nos muestra el listado de comiteos del repositorio en el que estamos con su hash, autor, fecha, mensaje,  etc.
 - `git diff nombrefichero.ext` --> para ver los cambios que hay en un fichero de nuestro **Working Área** comparado con el **Local Repository** (commit)
 - `git remote add origin https://github.com/Tsuna-mi/notes-bootcamp.git`--> para configurar nuestro repo remoto
-- `git push -u origin master` --> para subir nuestros cambios del repositorio local al remoto y sincronizar los repos
+- `git push -u origin master` --> para subir nuestros cambios del repositorio local al remoto y sincronizar los repos (pushea de los cambios desde el origen a la rama master); el resto de veces con que solo hagamos `git push`
